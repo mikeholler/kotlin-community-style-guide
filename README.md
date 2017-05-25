@@ -67,6 +67,14 @@ class Person(
 
 Constructor parameters can use either the regular indent or the continuation indent (double the regular indent).
 
+## Named Function Formatting
+
+Like classes, functions with few arguments and a small body can be written in a single line:
+
+```kotlin
+fun add(x: Int, y: Int): Int = x + y
+```
+
 ## Unit
 
 If a function returns Unit, the return type should be omitted:
